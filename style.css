@@ -1,0 +1,28 @@
+main {
+  max-width: 400px;
+  margin: 32px auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.images {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.images img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.images img.blue {
+  filter: invert(20%) sepia(63%) saturate(1753%) hue-rotate(188deg) brightness(97%) contrast(98%);
+}
+
+.images img.blue:hover {
+  filter: invert(67%) sepia(78%) saturate(1843%) hue-rotate(101deg) brightness(94%) contrast(86%);
+}
